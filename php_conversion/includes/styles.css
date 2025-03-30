@@ -1,0 +1,90 @@
+/* Custom styles for the WorkFlowEngine PHP conversion */
+
+/* Dashboard modules */
+.dashboard-module {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #333;
+    text-decoration: none;
+    vertical-align: top;
+    transition: all 0.3s ease;
+}
+
+.dashboard-module:hover {
+    background-color: #e9ecef;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+}
+
+.dashboard-module img {
+    margin-bottom: 10px;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.dashboard-module span {
+    display: block;
+    font-size: 12px;
+    word-wrap: break-word;
+}
+
+.grid_7 {
+    padding: 10px;
+}
+
+/* Main container */
+.main-container {
+    min-height: calc(100vh - 200px);
+    padding-bottom: 20px;
+}
+
+/* Custom breadcrumb */
+.breadcrumb {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+/* Section dividers */
+hr {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+/* Section titles */
+.section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dashboard-module {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+    
+    .dashboard-module img {
+        max-width: 48px;
+        max-height: 48px;
+    }
+} 
